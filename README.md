@@ -1,4 +1,4 @@
-# OptiMeetAPI
+# OptiMeet API
 
 ## Getting Started
 
