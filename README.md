@@ -14,7 +14,7 @@ Ce guide vous aidera à configurer et à lancer votre application Node.js en loc
 
 **Clonez le Répertoire :** git clone https://github.com/Side-Project-Consortium/optimeet-api.git
 
-**Naviguez vers le Répertoire du Projet :** cd OptiMeetAPI
+**Naviguez vers le Répertoire du Projet :** cd optimeet-api
 
 **Installez les Dépendances :** npm install
 
