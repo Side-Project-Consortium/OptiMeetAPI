@@ -24,12 +24,12 @@ app.use(logger);
 app.use(bodyParser.json());
 app.use("/api", userRoutes);
 
-mongoose
-  .connect(
-    "mongodb+srv://optimeet:xJ2IBCoQZOXqjI1F@cluster0.vnbqxlr.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
-  )
-  .then(() => console.log("MongoDB connected"))
-  .catch((err) => console.error(err));
+// mongoose
+//   .connect(
+//     "mongodb+srv://optimeet:xJ2IBCoQZOXqjI1F@cluster0.vnbqxlr.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+//   )
+//   .then(() => console.log("MongoDB connected"))
+//   .catch((err) => console.error(err));
 
 server.listen(port, () => {
   console.log(`Server running on port ${port}`);
