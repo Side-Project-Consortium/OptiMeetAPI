@@ -6,6 +6,8 @@ module.exports = (server) => {
     cors: {
       origin: "*",
       allowedHeaders: ["Origin", "X-Requested-With", "Content-Type", "Accept"],
+      transports: ["websocket", "polling"],
+      credentials: true,
     },
   });
 
