@@ -5,6 +5,7 @@ module.exports = (server) => {
   const socketIO = socketIo(server, {
     cors: {
       origin: "*",
+      allowedHeaders: ["Origin", "X-Requested-With", "Content-Type", "Accept"],
     },
   });
 
