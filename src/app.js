@@ -5,14 +5,14 @@ const userRoutes = require("./api/routes/userRoutes");
 const logger = require("./api/middleware/logger");
 const errorHandler = require("./api/middleware/errorHandler");
 const corsMiddleware = require("./api/middleware/cors");
-const http = require("http");
+const { createServer } = require("https");
 const socketIO = require("./socket");
 
 const app = express();
-const port = 3001;
+const port = 443;
 
-const server = http.createServer(app);
-console.log("HTTP server created");
+const server = createServer(app);
+console.log("HTTPS server created");
 
 const socket = socketIO(server);
 console.log("Socket.IO initialized");
