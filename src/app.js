@@ -9,7 +9,7 @@ const { createServer } = require("https");
 const socketIO = require("./socket");
 
 const app = express();
-const port = 443;
+const port = 80;
 
 const server = createServer(app);
 console.log("HTTPS server created");
