@@ -1,5 +1,16 @@
 # OptiMeet API
 
+## Introduction
+
+Optimeet API est une application Node.js qui fournit une API REST pour la gestion des salles de réunion. Elle utilise Socket.IO pour la communication en temps réel.
+
+## Fonctionnalités
+
+- Création de salles de réunion
+- Connexion aux salles de réunion
+- Communication en temps réel
+- Gestion des utilisateurs
+
 ## Getting Started
 
 Ce guide vous aidera à configurer et à lancer votre application Node.js en local.
